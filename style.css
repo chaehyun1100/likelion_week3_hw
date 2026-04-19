@@ -1,0 +1,89 @@
+.container {
+    width: 450px;
+    height: 750px;
+    background-color: black;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+}
+
+.profile-left {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.user-id {
+    color: white;
+    font-size: 14px;
+}
+.location {
+    color: white;
+    font-size: 14px;
+    margin-top: -1px;
+}
+.post-more {
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.main-photo {
+    width: 450px;
+    height: 500px;
+}
+
+.post-icons {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-left i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.post-icons i {
+    font-size: 24px;
+}
+
+.fa-bookmark {
+    margin-right: 10px;
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.first {
+    margin-top: -5px;
+}
+.second {
+        margin-top: -20px;
+}
+.date {
+    color: #a8a8a8;
+    font-size: 13px;
+    margin-top: -10px;
+}
